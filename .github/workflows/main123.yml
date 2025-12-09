@@ -9,4 +9,3 @@ jobs:
     - uses: actions/checkout@v6
     - name: listing files
       run: ls -a
-    
