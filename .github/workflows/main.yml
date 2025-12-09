@@ -1,0 +1,12 @@
+name: muthu
+on:
+  workflow_dispatch:
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps: 
+    - name: my first job
+    - uses: actions/checkout@v6
+    - name: listing files
+      run: ls -a
+    
